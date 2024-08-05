@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # This script runs the apt update and upgrade commands.
 echo ''
@@ -21,3 +21,6 @@ sudo snap refresh
 #echo'Updating Andaconda if there is an update';
 #conda update conda
 #conda update anaconda
+
+echo 'Updating cargo';
+/home/akwasi_akuoko/.cargo/bin/cargo install-update -a
